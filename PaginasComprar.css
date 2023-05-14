@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.inicio{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Prompt', sans-serif;
+}
+
+.LogoOficial{
+    height: 100px;
+    width: 165px;
+    align-content: center;
+
+}
+
+
+.Listacontact{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.Contactos{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+
+li{
+    color: whitesmoke;
+    margin: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+ul li:hover {
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+ 
+    transition: transform 0.2s ease-out;
+    transform: scale(1.2);
+}
+
+.imgmerch{
+margin: 50px;
+    width: 25%;
+    height: 400px;
+
+}
+
+.imgmerch:hover{
+    transition: transform 0.9s ease-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.FormRegistro{
+    width: 50%;
+
+    padding: 30px;
+    margin-top: 20px;
+    margin-right: 50px;
+    border-radius: 4px;
+    font-family:'Prompt', sans-serif;
+    color: aliceblue;
+    float: right;
+    overflow: hidden;
+
+
+}
+
+.NegroyGris{
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 500px;
+    width: 100%;
+}
+
+.controls{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px ;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   color: beige;
+
+
+}
+
+.FormRegistro .botton{
+    width: 100%;
+    background-color: red;
+    border: none;
+    padding: 12px;
+    color: whitesmoke;
+    margin: 16px 10px;
+    font-size:16px ;
+}
+
+
+.FormRegistro .botton:hover{
+    cursor: pointer;
+ 
+    transition: transform 1.0s ease-out;
+    transform: scale(1.05);
+
+}

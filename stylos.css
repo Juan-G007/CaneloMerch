@@ -1,0 +1,157 @@
+@media  screen and (max-width: 768px) {
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.inicio{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Prompt', sans-serif;
+}
+
+.LogoOficial{
+    height: 100px;
+    width: 165px;
+    align-content: center;
+
+}
+
+.Listacontact{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.Contactos{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.InicioA{
+    color:  inherit;
+    text-decoration: none;
+    }
+
+
+li{
+    color: whitesmoke;
+    margin: 0 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+ul li:hover {
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+ 
+    transition: transform 0.2s ease-out;
+    transform: scale(1.2);
+  }
+
+.threediv{
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+
+    justify-content: space-between;
+
+}
+
+.imgpersona{
+    width: 45%;
+    height: 350px;
+
+}
+
+.Div3Merch{
+    color: beige;
+    font-size: 30px;
+position: absolute;
+right: 15%;
+left: 50%;
+margin-top: 180px;
+margin-bottom: 40px;
+}
+
+.AllProduct{
+    background-color: rgba(0, 0, 0, 0.904);
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.AllProductF{
+    font-family: 'Dosis', sans-serif;
+font-size: 70px;
+color: bisque;
+}
+
+.TablaMerch{
+    background-color: rgba(0, 0, 0, 0.945);
+    width: 100%;
+    height: 1000px;
+
+}
+
+
+.TablaMerchOf{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgmerch{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+
+}
+
+.imgmerch:hover{
+    transition: transform 0.5s ease-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.tdtabla{
+    padding: 30px;
+}
+
+
